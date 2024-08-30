@@ -5,4 +5,32 @@
 ![image](https://github.com/user-attachments/assets/f40af0f3-66b0-40a6-9264-0b1ca4917b5d)
 
 
-## Autojs
+## Autoxjs
+Autoxjs用于app自动化，文件夹里面有记录.md总结了环境的搭建以及操作的一些技巧，api中包含一些常用的api函数
+
+- 点击指定坐标点——click.js
+- 获取截图——capture.js
+- 通过OCR匹配图片位置——matchPicture.js
+- 监听短信消息——notificationEvent.js
+- 关闭应用程序——shutdown.js
+
+一些实际应用
+- buyTicket.js——12306自动抢票
+- copyCaptcha.js——监听短信验证码并发送到微信文件传输助手
+- likeFreindZone.js——朋友圈自动点赞
+- likeSports.js——微信步数自动点赞
+- task.js——微信公众号点击任务
+
+## Playwright
+Playwright为python的一个爬虫包，下面是实际应用
+
+- downloads.py——下载url地址的文件
+- get_leetcode_problem.py——下载leetcode题目代码
+- get_patent_info.py——根据用户输入的关键词，搜索专利之星所有检索信息，并下载其pdf、图片以及文本信息
+- translate.py——在线和有道翻译进行交互，实时翻译
+
+## UiAutomation
+UiAutomation是一个控制电脑程序的自动化框架，下面是一些实际应用
+
+- wechat.py——实现手机与电脑通过微信传输助手交互，微信自动回复消息
+- chatRobot.py——结合LLM实现微信智能聊天助手，实现手机与Kimi的交互
