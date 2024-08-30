@@ -34,3 +34,11 @@ UiAutomation是一个控制电脑程序的自动化框架，下面是一些实�
 
 - wechat.py——实现手机与电脑通过微信传输助手交互，微信自动回复消息
 - chatRobot.py——结合LLM实现微信智能聊天助手，实现手机与Kimi的交互
+- 无忧托尔——微信小程序，结合Autoxjs,scrcpy,UiAutomation，能够操作手机玩无忧托儿游戏，玩到了153分
+
+  ![image](https://github.com/user-attachments/assets/f3573383-897e-47c0-8583-c3c1da9bf32f)
+
+- 砖了个砖——微信小程序，同上结合Autojs,scrcpy,UiAutomation，以及蒙特卡洛树搜索算法，玩到了第34层
+  
+  ![image](https://github.com/user-attachments/assets/0dce4552-8f00-4f95-8558-2b789c3c4967)
+
